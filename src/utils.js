@@ -1,4 +1,4 @@
-const { context } = require('@actions/github');
+import { context } from '@actions/github';
 
 function buildSlackAttachments({ status, color, github }) {
   const { payload, ref, workflow, eventName } = github.context;
@@ -55,10 +55,10 @@ function buildSlackAttachments({ status, color, github }) {
   ];
 }
 
-module.exports.buildSlackAttachments = buildSlackAttachments;
+export { buildSlackAttachments };
 
 function formatChannelName(channel) {
   return channel.replace(/[#@]/g, '');
 }
 
-module.exports.formatChannelName = formatChannelName;
+export { formatChannelName };

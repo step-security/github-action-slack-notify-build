@@ -10,7 +10,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "dependencies": {
-    "@actions/core": "^2.0.0",
+    "@actions/core": "^3.0.1",
     "@actions/github": "^8.0.0",
     "@slack/web-api": "^8.5.0",
     "axios": "^1.21.0"

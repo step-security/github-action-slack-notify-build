@@ -1,0 +1,7 @@
+[[IgnoredVulns]]
+id = "GHSA-3g3m-2fjr-6pw4"
+reason = "glob is a dev/transitive dependency only, not included in dist"
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+reason = "minimatch is a dev/transitive dependency only, not included in dist"

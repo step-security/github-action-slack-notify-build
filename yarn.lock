@@ -3428,7 +3428,7 @@ __metadata:
     axios: "npm:^1.21.0"
     babel-jest: "npm:^30.5.2"
     jest: "npm:^30.5.2"
-    prettier: "npm:^1.18.2"
+    prettier: "npm:^3.10.1"
   languageName: unknown
   linkType: soft
 
@@ -4578,12 +4578,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^1.18.2":
-  version: 1.19.1
-  resolution: "prettier@npm:1.19.1"
+"prettier@npm:^3.10.1":
+  version: 3.10.1
+  resolution: "prettier@npm:3.10.1"
   bin:
-    prettier: ./bin-prettier.js
-  checksum: 10c0/12efb4e486c1e1d006e9eadd3b6585fc6beb9481dc801080fc23d3e75ec599d88c6fea1b40aef167128069e8fe76b4205bb8306ad145575d1b051b8fa70cfaae
+    prettier: bin/prettier.cjs
+  checksum: 10c0/e8c03ea575a30e15afa75a3700e94609050502980d7c906374aea4cf623eef4dce0816100126207e675cc1ed54b7dfce60f02dbee8d61ec27dc69ce5df6c3723
   languageName: node
   linkType: hard
 
